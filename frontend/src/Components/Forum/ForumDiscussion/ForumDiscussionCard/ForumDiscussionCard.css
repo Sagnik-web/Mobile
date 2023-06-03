@@ -1,0 +1,65 @@
+.Discussion_Card {
+  width: 100%;
+}
+.Discussion_Card_container {
+  background: #ffffff;
+  border: 1px solid #8cd1ff;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.Discussion_Card_rapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Discussion_Card_content {
+  margin: 35px 0;
+  padding-left: 30px;
+  padding-right: 180px;
+  border-right: 0.3px solid #52baff;
+}
+.Discussion_Card_content h2 {
+  color: #00365a;
+  line-height: 30px;
+  padding-bottom: 20px;
+  font-size: 28px;
+}
+.Discussion_Card_content p {
+  font-size: 17px;
+  font-weight: lighter;
+  line-height: 34px;
+  color: #979797;
+}
+.Discussion_Card_ratting {
+  padding: 18px 30px;
+  margin: auto;
+}
+.Discussion_Card_ratting_message {
+  display: flex;
+  border-bottom: 0.3px solid #52baff;
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: #00365a;
+  justify-content: center;
+}
+.Discussion_Card_ratting_view {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: space-between;
+  border-bottom: 0.3px solid #52baff;
+  font-size: 15px;
+  color: #00365a;
+}
+.Discussion_Card_ratting_view p {
+  padding-left: 18px;
+}
+.Discussion_Card_ratting_time {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #00365a;
+}
+.Post_time {
+  padding-left: 18px;
+}

@@ -1,0 +1,38 @@
+.mobile_card{
+   
+    display: inline-block;
+    padding: 17px;
+    /* border: 1px solid #000; */
+    border-radius: 5px;
+    box-shadow: 0 0 7px #3498DB;
+}
+
+.mobile_card_details{
+    width: 220px;
+    text-align: left;
+    margin: auto;
+}
+
+.mobile_card_img img{
+    width: 220px;
+}
+
+.mobile_card_details h3, .mobile_card_details h4, .mobile_card_details p{
+    margin: 0;
+    margin-top: 4px;
+}
+
+.mobile_btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.mobile_btn p{
+    width: 100px;
+    color: #fff;
+    background-color: #3498DB;
+    padding: 7px 0;
+    text-align: center;
+    cursor: pointer;
+}

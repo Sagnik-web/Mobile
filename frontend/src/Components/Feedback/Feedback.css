@@ -1,0 +1,11 @@
+.feedback{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.FeedbackCard{
+    background: rgb(255, 197, 122);
+    /* background: rgb(228, 228, 227); */
+
+}

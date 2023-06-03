@@ -1,0 +1,67 @@
+.New_discussion {
+  width: 100%;
+  padding-top: 110px;
+}
+.New_discussion_container {
+  margin: 0 60px;
+  border: 1px solid #8cd1ff;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.New_discussion_Rapper {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.New_discussion_image_Section {
+}
+.New_discussion_content {
+  padding-left: 30px;
+}
+.Explore_Card_imgcard_rapper {
+  text-align: center;
+}
+.New_discussion_input {
+  margin-bottom: 25px;
+}
+.New_discussion_input p {
+  padding-top: 20px;
+  font-size: 20px;
+  color: #00365a;
+  padding-bottom: 8px;
+}
+.New_discussion_input input {
+  width: calc(100% - 43px);
+  border: 1px solid #b1e0ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-size: 20px;
+  padding: 15px;
+  outline: none;
+}
+.New_discussion_dropdown {
+  display: flex;
+}
+.New_discussion_dropdown select {
+  color: #888888;
+  width: 580px;
+  font-size: 20px;
+  padding: 15px 0;
+
+  outline: none;
+  border: 1px solid #b1e0ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding-left: 20px;
+  margin-right: 40px;
+}
+.New_discussion_input textarea {
+  resize: none;
+  font-size: 20px;
+  border: 1px solid #b1e0ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: calc(100% - 43px);
+  /* margin-right: 60px; */
+  outline: none;
+  padding: 15px;
+}

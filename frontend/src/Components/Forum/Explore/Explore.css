@@ -1,0 +1,29 @@
+.Explore {
+  width: 100%;
+}
+.Explore_Container {
+  margin: 0 60px;
+  margin-top: 55px;
+}
+.Forum_Fliter {
+  display: flex;
+  width: fit-content;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 117, 242, 0.36);
+  border-radius: 5px;
+  margin-bottom: 75px;
+  cursor: pointer;
+}
+.Forum_Fliter p {
+  font-size: 18px;
+  padding: 12px 17.5px;
+  border-radius: 5px;
+}
+.Forum_Fliter p:hover {
+  color: #ffffff;
+  background-color: #52baff;
+  border-radius: 5px;
+}
+.ExploreCard_display {
+  cursor: pointer;
+}

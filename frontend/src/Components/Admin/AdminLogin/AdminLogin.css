@@ -1,0 +1,74 @@
+::placeholder {
+  color: #00365a;
+  opacity: 1;
+}
+
+.login {
+  width: 100%;
+}
+.admin_login_card {
+  width: 500px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 30px rgba(170, 221, 255, 0.4);
+  margin: 80px auto;
+  padding: 18px;
+}
+.admin_login_container h3 {
+  font-size: 48px;
+  color: #00365a;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.admin_login_container p {
+  font-size: 23px;
+  color: #00365a;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.admin_login_form {
+  margin: 24px 30px;
+  /* text-align: center; */
+}
+.admin_login_form input{
+  font-size: 17px;
+  width: calc(100% - 37px);
+  /* font-weight: 500; */
+  padding: 12px 17px;
+  margin-bottom: 20px;
+  /* padding-right: 120px; */
+  outline: none;
+  border: 0.5px solid #00365a4d;
+  border-radius: 5px;
+}
+.admin_login_link_rapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+.Forgot_Password_link a {
+  color: #00b5f0;
+  font-size: 20px;
+}
+.admin_login_submit {
+  text-align: center;
+  padding: 30px 0;
+}
+.admin_login_submit button {
+  font-size: 18px;
+  padding: 9.5px 45.5px;
+  color: #ffffff;
+  background-color: #52baff;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+}
+.admin_login_link {
+  text-align: center;
+  color: #00365a;
+  font-size: 20px;
+}
+.admin_login_link a {
+  color: #00b5f0;
+  font-size: 20px;
+}

@@ -1,0 +1,65 @@
+.mobile_nav{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3498DB;
+}
+
+.mobile_search{
+    display: flex;
+    justify-content: center;
+    flex:1 ;
+}
+
+.mobile_search input{
+    font-size: 14px;
+    padding: 7px 30px;
+    width: 600px;
+    border-top-left-radius:50px ;
+    border-bottom-left-radius:50px ;
+    outline: none;
+    border: 1px solid #3498DB;
+}
+
+.mobile_search button{
+    color: #fff;
+    background-color: #3498DB;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+    cursor: pointer;
+}
+
+.mobile_search button img{
+    width: 15px;
+    padding: 5px 10px;
+   
+}
+
+.mobile_nav_img img{
+    width: 30px;
+    margin: 7px 20px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+
+
+.mobile_card_container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.mobile_card_rapper{
+    flex: 25%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.laptop_filter_bg{
+    display: flex;
+}

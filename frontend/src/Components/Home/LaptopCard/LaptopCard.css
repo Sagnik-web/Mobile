@@ -1,0 +1,35 @@
+.home_top10_laptop_card{
+   
+    display: inline-block;
+    padding: 17px;
+    border: 1px solid #000;
+}
+
+.home_top10_laptop_card_details{
+    width: 278px;
+    text-align: left;
+    margin: auto;
+}
+
+.home_top10_laptop_card_img img{
+    width: 278px;
+}
+
+.home_top10_laptop_card_details h3, .home_top10_laptop_card_details h4, .home_top10_laptop_card_details p{
+    margin: 0;
+    margin-top: 4px;
+}
+
+.home_top_laptop_btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.home_top_laptop_btn p{
+    width: 120px;
+    color: #fff;
+    background-color: #3498DB;
+    padding: 7px 0;
+    text-align: center;
+}

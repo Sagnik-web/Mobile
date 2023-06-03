@@ -1,0 +1,128 @@
+.flex{
+  display: flex;
+}
+
+.flex1{
+  flex:1;
+}
+
+.justify_center{
+  justify-content: center;
+}
+
+.TabletDetail_container {
+  margin: 0px 250px;
+}
+.part1 {
+  border-bottom: 3px solid blue;
+  margin-bottom: 35px;
+}
+.part1_img {
+  padding: 50px;
+  /* height: 420px; */
+
+}
+.part1_img_carousel  img {
+  border-radius: 10px;
+  /* height: 400px;
+  width: 300px; */
+}
+.part1_details {
+  flex-direction: column;
+  padding: 50px 0px;
+}
+.part1_details > h1 {
+  margin: 20px 0px;
+}
+.part1_details > h2 {
+  margin: 20px 0px;
+}
+.part1_details ul > li {
+  margin-left: 20px;
+  padding: 5px 0px;
+  font-size: 18px;
+}
+.part1_details div > button {
+  margin-top: 25px;
+  padding: 8px 15px;
+  background-color: rgb(41, 78, 245);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.part2, .part3,.part4, .part5, .part6, .part7, .part8, .part9,.part10, .part11{
+    margin: 0px 100px 20px;
+    border-bottom: 2px solid lightblue;
+}
+.part12{
+  margin: 0px 100px 20px;
+  margin-bottom: 100px;
+}
+.part2_heading{
+    padding: 15px;
+    background-color: lightblue;
+}
+.part2_details{
+    margin: 20px 0px;
+    font-weight: 500;
+    word-spacing: 1.5;
+    margin-right: 80px;
+    line-height: 2;
+}
+.part2_details_heading{
+  flex: 1;
+  text-align: center;
+}
+.part2_details_subheading{
+  flex: 2;
+  /* text-align: center; */
+}
+.h3Tag_subHeading{
+  flex: 1;
+}
+.pTag_subHeading{
+flex: 1;
+}
+.part3{
+    margin: 0px 100px;
+}
+.part7_camera h4{
+  flex: 1;
+}
+.part7_camera p{
+  flex: 1;
+}
+.part2_details_subheading div>span{
+  border-bottom: 3.5px solid lightblue;
+}
+
+
+
+@media (max-width: 1400px){
+  .MobileDetails_container{
+    margin: 0 170px;
+  }
+}
+
+@media (max-width: 1200px){
+  .MobileDetails_container{
+    margin: 0 100px;
+  }
+}
+
+@media (max-width: 1000px){
+  .MobileDetails_container{
+    margin: 0 50px;
+  }
+}
+
+@media (max-width: 900px){
+  .MobileDetails_container{
+    margin: 0;
+  }
+}

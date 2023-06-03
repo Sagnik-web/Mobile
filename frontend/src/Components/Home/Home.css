@@ -1,0 +1,112 @@
+.home_banner_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.home_banner_text{
+    margin-top: 70px;
+    max-width: 550px;
+}
+
+.home_banner_text h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.home_banner_main_text{
+    font-size: 24px;
+    margin: 0;
+}
+
+.home_banner_text_btn{
+    font-size: 17px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    display: inline-block;
+    color: #fff;
+    background-color: #3498DB;
+}
+
+
+.home_mobile_text h3, .home_laptop_text h3, .home_tablet_text h3{
+    margin: 0;
+}
+
+.home_mobile, .home_laptop, .home_tablet{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.home_mobile_text, .home_laptop_text{
+    /* margin-top: 30px; */
+}
+
+.home_mobile_text h3, .home_laptop_text h3, .home_tablet_text h3{
+    font-size: 45px;
+
+}
+
+.home_mobile_text_main, .home_laptop_text_main, .home_tablet_text_main{
+    font-size: 22px;
+    max-width: 417px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.home_mobile_btn, .home_laptop_btn, .home_tablet_btn{
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #3498DB;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 0;
+    cursor: pointer;
+    /* margin-bottom: 5px; */
+}
+
+.home_laptop{
+    flex-direction: row-reverse;
+}
+
+
+.home_top_mobile,.home_top_laptop,.home_top_tablet{
+    max-width: 1100px;
+    margin: auto;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.home_top10_mobile, .home_top10_laptop, .home_top10_tablet{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.home_top10_mobile_card_rapper, .home_top10_laptop_card_rapper, .home_top10_tablet_card_rapper{
+    flex:33.33%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.home_mobile_explore_rapper, .home_laptop_explore_rapper, .home_tablet_explore_rapper{
+    text-align: center;
+}
+
+.home_mobile_explore, .home_laptop_explore, .home_tablet_explore{
+    display: inline-block;
+    padding: 10px 0;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    background-color: #3498DB;
+}

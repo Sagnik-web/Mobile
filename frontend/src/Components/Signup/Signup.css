@@ -1,0 +1,75 @@
+.signup {
+  width: 100%;
+}
+.signup_page {
+  width: 500px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 30px rgba(170, 221, 255, 0.4);
+  margin: 80px auto;
+  padding: 18px;
+}
+.signup_content {
+}
+.signup_content h3 {
+  font-size: 48px;
+  color: #00365a;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.signup_content p {
+  font-size: 23px;
+  color: #00365a;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.signup_form{
+  text-align: center;
+  margin: 0 40px;
+}
+.signup_form input{
+  width: calc(100% - 36px);
+  padding: 12px 17px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 0.5px solid #00365a4d;
+  font-size: 17px;
+}
+.signup_form input::placeholder{
+  color: #00365a;
+  opacity: 0.6;
+}
+
+.signup_submit {
+  text-align: center;
+  padding: 30px 0;
+}
+.signup_submit button {
+  font-size: 18px;
+  padding: 9.5px 45.5px;
+  color: #ffffff;
+  background-color: #52baff;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+}
+.signup_link {
+  text-align: center;
+  color: #00365a;
+  font-size: 20px;
+}
+.signup_link a {
+  color: #00b5f0;
+  font-size: 20px;
+}
+.container {
+  padding-left: 20px;
+  cursor: pointer;
+}
+input[type="radio"] {
+  border: 0px;
+  width: 18px;
+  height: 18px;
+}
